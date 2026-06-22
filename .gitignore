@@ -1,0 +1,10 @@
+# Binarios compilados locales
+cli-helper
+cli-helper-*
+*.exe
+*.bin
+
+# Carpetas de desarrollo y entorno de pruebas
+/downloads/
+mock-server/
+.DS_Store
