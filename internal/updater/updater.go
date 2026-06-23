@@ -42,7 +42,7 @@ func CheckAndApplyUpdate(currentVersion string) error {
 		return nil
 	}
 
-	fmt.Printf("🚀 Nueva versión detectada: %s (Actual: %s). Buscando binario compatible...\n", release.TagName, currentVersion)
+	fmt.Printf("Nueva versión detectada: %s (Actual: %s). Buscando binario compatible...\n", release.TagName, currentVersion)
 
 	var downloadURL string
 	expectedBinaryName := fmt.Sprintf("cli-helper-%s-%s", runtime.GOOS, runtime.GOARCH)
